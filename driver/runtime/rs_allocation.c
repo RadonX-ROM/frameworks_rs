@@ -287,8 +287,8 @@ typedef unsigned long ull3 __attribute__((ext_vector_type(3)));
 typedef unsigned long ull4 __attribute__((ext_vector_type(4)));
 
 #ifndef RS_DEBUG_RUNTIME
-SET_ELEMENT_AT_TYPE(ull, ulong)
 /*
+SET_ELEMENT_AT_TYPE(ull, ulong)
 SET_ELEMENT_AT_TYPE(ull2, ulong2)
 SET_ELEMENT_AT_TYPE(ull3, ulong3)
 SET_ELEMENT_AT_TYPE(ull4, ulong4)
